@@ -4,7 +4,7 @@ import App from './App.vue'
 // import routes from './routes'
 import vuetify from './plugins/vuetify'
 import  './plugins/axios'
-import store from './vuex/index';
+// import store from './vuex/index';
 
 // Vue.use(VueRouter);
 // const router = new VueRouter({
@@ -17,7 +17,7 @@ new Vue({
   render: h => h(App),
   vuetify,
   // router,
-  store
+  // store
 }).$mount('#app')
 
 
